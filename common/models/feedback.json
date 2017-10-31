@@ -1,0 +1,38 @@
+{
+  "name": "Feedback",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "Age": {
+      "type": "number",
+      "required": true
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Experience": {
+      "type": "string"
+    },
+    "Suggestions": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
